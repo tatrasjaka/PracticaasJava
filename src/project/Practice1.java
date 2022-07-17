@@ -10,7 +10,7 @@ public class Practice1 {
 		System.out.println(txt0);
 		// There are different methods to find the highest or lowest value between some
 		// numbers
-		// For find the highest
+		// For find the highesteee
 		System.out.println(Math.max(5, 10));
 		// The lowest
 		System.out.println(Math.min(5, 10));
