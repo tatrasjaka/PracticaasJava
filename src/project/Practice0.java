@@ -80,7 +80,7 @@ public class Practice0 {
 		String firstName0 = "John";
 		String lastName0 = "Doe";
 		System.out.println(firstName0 + " " + lastName0);
-		// Also, you can concatenate two strings
+		// Also, you can concatenate two stringsee
 		System.out.println(firstName0.concat(lastName0));
 	}
 }
