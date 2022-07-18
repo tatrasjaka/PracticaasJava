@@ -21,7 +21,15 @@ public class Practice1 {
 		// With Math.random, a random number appears between 0,1 and 0,99
 		System.out.println(Math.random());
 		// To solve this, we declare the random number and multiply it by 101
-	    int randomNum = (int)(Math.random() * 101);  // 0 to 100
-	    System.out.println(randomNum);
+		int randomNum = (int) (Math.random() * 101); // 0 to 100
+		System.out.println(randomNum);
+		boolean isJavaFun = true;
+		boolean isFishTasty = false;
+		System.out.println(isJavaFun); // Outputs true
+		System.out.println(isFishTasty); // Outputs false
+		int x = 10;
+		int y = 9;
+		System.out.println(x > y); // returns true, because 10 is higher than 9
+		System.out.println(10 == 15); // returns false, because 10 is not equal to 15
 	}
 }
