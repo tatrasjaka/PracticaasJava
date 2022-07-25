@@ -82,6 +82,94 @@ public class Practice0 {
 		System.out.println(firstName0 + " " + lastName0);
 		// Also, you can concatenate two strings
 		System.out.println(firstName0.concat(lastName0));
+		// Another type of concatenate
+		int num10 = 80;
+		if (num10 < 18) {
+			System.out.println("Falva");
+
+		} else {
+			System.out.println("Not Falva");
+		}
+		// Here we have declare the one of the if's or won't work
+		if (num10 < 10) {
+			System.out.println("Qalva");
+		} else if (num10 < 20) {
+			System.out.println("Not Qalva");
+		} else {
+			System.out.println("The last two if's aren't complying, so else gets returned");
+			// We put if, else if and else, if and ifelse aren't complying, else gets
+			// returned
+			// There's a form to simply if and else:
+		}
+		String result = (num10 < 20) ? "Good Alva." : "Good Falva.";
+		System.out.println(result);
+		int day = 4;
+		// We've to remember, the numbers are declared with int
+		switch (day) {
+		case 1:
+			System.out.println("Monday");
+			break;
+		case 2:
+			System.out.println("Tuesday");
+			break;
+		case 3:
+			System.out.println("Wednesday");
+			break;
+		case 4:
+			System.out.println("Thursday");
+			break;
+		case 5:
+			System.out.println("Friday");
+			break;
+		case 6:
+			System.out.println("Saturday");
+			break;
+		case 7:
+			System.out.println("Sunday");
+			break;
+		}
+		int i = 0;
+		do {
+			System.out.println(i);
+			i++;
+		} while (i < 5);
+		// By some reason, 'xx' means a constant addition until a number behind the one
+		// you put it in the while
+		for (int i0 = 0; i0 < 5; i0++) {
+			System.out.println(i0);
+		}
+		// A for, it's an if simplify
+		// Other example for 'for'
+		for (int i1 = 0; i1 <= 10; i1 = i1 + 2) {
+			System.out.println(i1);
+		}
+		String[] cars = { "Volvo", "BMW", "Ford", "Mazda" };
+		for (String i2 : cars) {
+			System.out.println(i2);
+		}
+		// At the moment, I don't understand this (???)
+		for (int i3 = 0; i3 < 10; i3++) {
+			if (i3 == 4) {
+				break;
+			}
+			System.out.println(i3);
+		}
+		// With this, we put a for and a if, so the number will stop at what we put in
+		// the if, in this case 4
+		for (int i4 = 0; i4 < 10; i4++) {
+			if (i4 == 4) {
+				continue;
+			}
+			System.out.println(i4);
+		}
+		// Exactly the same, but the "continue" let the operation continues excepting
+		// the number that I specify
+		String[] cars1 = {"Volvo", "BMW", "Ford", "Mazda"};
+		System.out.println(cars1[0]);
+		// Outputs Volvo
+		String[] cars11 = {"Volvo", "BMW", "Ford", "Mazda"};
+		System.out.println(cars11.length);
+		// Outputs 4
 	}
 }
 /*
